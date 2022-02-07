@@ -80,3 +80,17 @@ function getRandomNumber(min, max) {
 function randomColor() {
     return arrayColor[Math.floor(Math.random() * arrayColor.length)]
 }
+
+
+//hack this game
+// function winTheGame() {
+
+//     function kill() {
+//         const circle = document.querySelector('.circle')
+//         if (circle) {
+//             circle.click()
+//         }
+//     }
+//     setInterval(kill, 30)
+// }
+// winTheGame()
